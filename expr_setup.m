@@ -4,5 +4,16 @@ function [Occupancies, UserHours, Fans, ACs, Computers] = expr_setup(numUsers, n
 
 % Setup Occupancies matrix
 
+% Setup UserHours Matrix
+
+% Setup Fans vectors
+Fans = 3*ones(numRooms, 1);
+
+% Setup AC vector
+ACs = ones(numRooms, 1);
+
+% Setup Computers vector
+Computers = 10*ones(numRooms, 1);
+
 end
 
