@@ -15,7 +15,7 @@ numHours = 24
 numFans = 3*numRooms
 numAC = numRooms
 numComp = 20*numRooms
-numUsers = 0.95 * numComp
+numUsers = ceil(0.95 * numComp)
 
 % Power levels
 power_comp = 200; % Consumes 171Wh active (actual computer would have some percentage low power)
